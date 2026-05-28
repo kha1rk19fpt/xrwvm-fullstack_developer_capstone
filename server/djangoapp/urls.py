@@ -14,6 +14,9 @@ urlpatterns = [
     # path for registration
     path(route='register', view=views.registration, name='register'),
 
+    # path for get car
+    path(route='get_cars', view=views.get_cars, name ='getcars'),
+    
     # path for dealer reviews view
 
     # path for add a review view
